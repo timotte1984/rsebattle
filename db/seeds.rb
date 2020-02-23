@@ -16,13 +16,13 @@ puts 'Creating restaurants...'
 entreprises_attributes = [
   {
     name:         'AXE',
-    score:      133
-    img_url: "https://res.cloudinary.com/julienmottet/image/upload/v1558388601/af9axogfhhprfrix6qew.jpg";
+    score:      133,
+    img_url: "https://res.cloudinary.com/julienmottet/image/upload/v1558388601/af9axogfhhprfrix6qew.jpg"
   },
   {
     name:         'Danone',
-    score:      123
-    img_url: "https://res.cloudinary.com/julienmottet/image/upload/v1558388601/af9axogfhhprfrix6qew.jpg";
+    score:      123,
+    img_url: "https://res.cloudinary.com/julienmottet/image/upload/v1558388601/af9axogfhhprfrix6qew.jpg"
   }
 ]
 Entreprise.create!(entreprises_attributes)

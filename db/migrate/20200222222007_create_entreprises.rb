@@ -3,7 +3,7 @@ class CreateEntreprises < ActiveRecord::Migration[6.0]
     create_table :entreprises do |t|
       t.string :name
       t.integer :score
-      t.string :image
+      t.string :img_url
 
       t.timestamps
     end
