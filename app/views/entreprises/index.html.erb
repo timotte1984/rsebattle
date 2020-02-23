@@ -1,5 +1,5 @@
 <ul>
-<% @entreprises.all do |entreprise| %>
+<% @entreprises.each do |entreprise| %>
 <li><%= entreprise.name %> <%= entreprise.score %></li>
 <% end %>
 </ul>

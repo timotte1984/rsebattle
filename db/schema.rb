@@ -15,7 +15,7 @@ ActiveRecord::Schema.define(version: 2020_02_22_222007) do
   create_table "entreprises", force: :cascade do |t|
     t.string "name"
     t.integer "score"
-    t.string "image"
+    t.string "img_url"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
